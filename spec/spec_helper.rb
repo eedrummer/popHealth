@@ -1,3 +1,4 @@
+require 'cover_me'
 # This file is copied to spec/ when you run 'rails generate rspec:install'
 ENV["RAILS_ENV"] ||= 'test'
 require File.expand_path("../../config/environment", __FILE__)
@@ -17,7 +18,6 @@ RSpec.configure do |config|
   # config.mock_with :rr
   config.mock_with :rspec
 end
-
 
 def collection_fixtures(*collection_names)
   collection_names.each do |collection|

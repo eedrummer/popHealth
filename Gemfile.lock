@@ -40,9 +40,15 @@ GEM
       activesupport (~> 3.0.0)
     bson (1.1.4)
     builder (2.1.2)
+    configatron (2.6.4)
+      yamler (>= 0.1.0)
+    cover_me (1.0.0.rc4)
+      configatron
+      hashie
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    hashie (0.4.0)
     i18n (0.4.2)
     mail (2.2.12)
       activesupport (>= 2.3.6)
@@ -89,11 +95,13 @@ GEM
     treetop (1.4.9)
       polyglot (>= 0.3.1)
     tzinfo (0.3.23)
+    yamler (0.1.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  cover_me (>= 1.0.0.rc4)
   nokogiri
   quality-measure-engine!
   rails (= 3.0.1)

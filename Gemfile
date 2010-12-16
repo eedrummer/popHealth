@@ -4,6 +4,7 @@ gem 'rails', '3.0.1'
 
 group :test, :development do
   gem "rspec-rails", "~> 2.0.1"
+  gem 'cover_me', '>= 1.0.0.rc4'
 end
 
 gem 'quality-measure-engine', :git => 'http://github.com/pophealth/quality-measure-engine.git', :branch => 'develop'
