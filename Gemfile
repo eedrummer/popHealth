@@ -6,7 +6,7 @@ group :test, :development do
   gem "rspec-rails", "~> 2.0.1"
 end
 
-gem 'quality-measure-engine', :git => 'http://github.com/pophealth/quality-measure-engine.git', :branch => 'develop'
+gem 'quality-measure-engine', "0.2.0"
 gem 'nokogiri'
 gem 'rubyzip'
 
@@ -15,6 +15,8 @@ gem 'warden'
 gem 'rails_warden'
 gem 'bcrypt-ruby', :require => 'bcrypt'
 gem 'json', :platforms => :jruby
+gem "org.torquebox.rake-support", "1.0.0.Beta23", :platforms => :jruby
+gem 'org.torquebox.torquebox-messaging-client', "1.0.0.Beta23", :platforms => :jruby
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
