@@ -1,0 +1,9 @@
+web:
+  min: 3
+  max: 10
+
+jobs: shared
+
+messaging: shared
+
+  

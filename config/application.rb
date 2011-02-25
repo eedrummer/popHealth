@@ -42,5 +42,7 @@ module PopHealth
 
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
+    
+    config.allow_concurrency = true
   end
 end
