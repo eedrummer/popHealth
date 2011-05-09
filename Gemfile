@@ -1,9 +1,9 @@
 source 'http://gemcutter.org'
 
-gem 'rails', '3.0.5'
+gem 'rails', '3.0.7'
 
 group :test, :development do
-  gem "rspec-rails", "~> 2.0.1"
+  gem "rspec-rails", "~> 2.5.0"
 end
 
 gem 'quality-measure-engine', :git => 'http://github.com/pophealth/quality-measure-engine.git', :branch => 'develop'
@@ -12,7 +12,7 @@ gem 'rubyzip'
 
 gem "will_paginate", "~> 3.0.pre2"
 gem 'warden'
-gem 'rails_warden'
+gem 'rails_warden', '0.5.2'
 gem 'bcrypt-ruby', :require => 'bcrypt'
 gem 'json', :platforms => :jruby
 gem 'bson_ext', :platforms => :mri
